@@ -17,4 +17,5 @@
 			
 </select>
 <button onclick='viewSelectedPreference()'>Edit</button>
+<a style="margin-left:40px" href="BlankPreference">Add New Preference</a>
 </div>

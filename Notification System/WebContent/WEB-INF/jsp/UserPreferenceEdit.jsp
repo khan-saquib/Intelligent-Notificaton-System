@@ -115,6 +115,6 @@ function addNewNotification()
 		<%} %>
 		</div>
 		Preference Name: <input type="text" name="UserPreferenceName" maxlength="30" value="<%=userPreference.getPreferenceName()%>">
-		<p><input type="submit" onclick="" value="Save"></p>
+		<p><input style="padding-left:12px;padding-right:12px" type="submit" onclick="" value="Save"><button style="margin-left:20px;padding-top:2px;padding-bottom:2px;" onclick="Dashboard">Cancel</button></p>
 	</div>
 </form>

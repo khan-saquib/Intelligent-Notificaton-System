@@ -109,7 +109,7 @@ public class UserPreferenceGroupDB {
 	    	}
 	    	while(rs.next())
 	    	{
-	    		userPreferences.add(new UserPreference(rs.getInt(2),null,null, null));
+	    		userPreferences.add(new UserPreference(rs.getInt(2),null,rs.getString(3), null));
 	    	}
     	    
     	    rs.close();
